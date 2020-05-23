@@ -22,17 +22,6 @@ export const Info = styled.div`
 	justify-self: center;
 	align-self: center;
 `;
-
-export const SubTitle = styled.h4`
-	font-family: 'Playfair Display', 'Courier New', Courier, monospace;
-	font-weight: bold;
-	font-size: 2rem;
-	color: rgba($color: #000, $alpha: 0.5);
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin-bottom: 2rem;
-`;
-
 export const Title = styled.h2`
 	font-family: 'Montserrat', 'Courier New', Courier, monospace;
 	font-weight: bold;
@@ -40,6 +29,16 @@ export const Title = styled.h2`
 	color: black;
 	text-transform: uppercase;
 	margin-bottom: 3.6rem;
+`;
+
+export const SubTitle = styled.h4`
+	font-family: 'Playfair Display', 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: 2rem;
+	color: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 2rem;
 `;
 
 export const Description = styled.p`
