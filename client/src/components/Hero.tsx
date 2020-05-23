@@ -4,7 +4,7 @@ import CustomButton from './CustomButton';
 
 import { HeroContainer, Title, SubTitle } from './../styles/Hero.styles';
 
-// TODO: Handle click routing for custom buttons
+// TODO: Handle click routing for custom buttons.
 
 const Hero = () => {
 	return (
