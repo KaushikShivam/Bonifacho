@@ -3,6 +3,7 @@ import styled from 'styled-components';
 interface ButtonProps {
 	backgroundColor: string;
 	fontSize: string;
+	padding: string;
 }
 
 export const ButtonContainer = styled.button<ButtonProps>`
@@ -15,6 +16,7 @@ export const ButtonContainer = styled.button<ButtonProps>`
 	transition: all 0.2s;
 	background-color: ${({ backgroundColor }) => backgroundColor};
 	font-size: ${({ fontSize }) => fontSize};
+	padding: ${({ padding }) => padding};
 
 	&:focus {
 		outline: none;

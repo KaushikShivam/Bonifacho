@@ -6,6 +6,7 @@ interface AppProps {
 	children: ReactNode;
 	backgroundColor: string;
 	fontSize: string;
+	padding: string;
 	handleClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
@@ -17,4 +18,4 @@ const CustomButton = ({ children, handleClick, ...otherProps }: AppProps) => {
 	);
 };
 
-export default Button;
+export default CustomButton;
