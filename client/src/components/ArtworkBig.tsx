@@ -31,7 +31,7 @@ const ArtworkBig = ({ name, artist, image }: AppProps) => {
 					<Title>{name}</Title>
 					<Author>{artist.name}</Author>
 				</div>
-				<div className='ArtworkBig-detail'>
+				<Detail>
 					<CustomButton
 						backgroundColor={`#AB9B8A`}
 						padding='5px 7px'
@@ -41,7 +41,7 @@ const ArtworkBig = ({ name, artist, image }: AppProps) => {
 						SHOP NOW
 					</CustomButton>
 					<p className='ArtworkBig-price'>$3,490</p>
-				</div>
+				</Detail>
 			</Content>
 		</div>
 	);
