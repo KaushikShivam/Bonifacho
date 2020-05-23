@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Hero = styled.div`
+export const HeroContainer = styled.div`
 	height: 50rem;
 	display: flex;
 	flex-direction: column;
