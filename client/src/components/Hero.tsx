@@ -3,19 +3,23 @@ import React from 'react';
 import { HeroContainer, Title, SubTitle } from './../styles/Hero.styles';
 
 const Hero = () => {
-	return <HeroContainer></HeroContainer>;
+	return (
+		<HeroContainer>
+			<SubTitle>HOUSE OF 99 PRESENTS</SubTitle>
+			<Title>BONIFACHO</Title>
+			<div className='btns'></div>
+		</HeroContainer>
+	);
 };
 
 export default Hero;
-// import React from 'react';
-// import './Hero.scss';
 // import heroBg from './../../../../assets/heroBg.png';
 
 // import CustomButton from './../../../../components/CustomButton/CustomButton';
 
 // const Hero = () => {
 //   return (
-//     <div className="Hero" style={{ background: `url(${heroBg})` }}>
+//     <div className="Hero">
 //       <h3 className="Hero-subtitle">HOUSE OF 99 PRESENTS</h3>
 //       <h1 className="Hero-title">BONIFACHO</h1>
 //       <div className="Hero-btns">

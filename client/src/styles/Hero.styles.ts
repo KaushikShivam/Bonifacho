@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import heroBg from './../assets/heroBg.png';
 
 export const HeroContainer = styled.div`
 	height: 50rem;
@@ -6,6 +7,7 @@ export const HeroContainer = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background: url(${heroBg});
 
 	.btns > * {
 		margin: 0 1rem;
