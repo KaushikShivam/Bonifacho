@@ -1,5 +1,7 @@
 import React from 'react';
+
 import artistWeek from './../assets/ArtistWeek.png';
+import CustomLink from './CustomLink';
 
 import {
 	ArtistWeekContainer,
@@ -21,7 +23,7 @@ const ArtistWeek = () => {
 					in pretium mi. Maecenas molestie massa leo quis efficitur dolor
 					tristique et.
 				</Description>
-				{/* <CustomLink>VIEW COLLECTION</CustomLink> */}
+				<CustomLink>VIEW COLLECTION</CustomLink>
 			</Info>
 			<div className='img'>
 				<img src={`${artistWeek}`} alt='Artist of the week' />
