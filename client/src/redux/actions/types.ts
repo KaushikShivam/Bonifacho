@@ -6,6 +6,8 @@ export enum actionTypes {
 	REMOVE_ALERT,
 	// Artwork
 	CREATE_ARTWORK,
+	CLEAR_USER_ARTWORKS,
+	GET_USER_ARTWORKS,
 }
 
 export type Action = SetAlertAction | RemoveAlertAction;

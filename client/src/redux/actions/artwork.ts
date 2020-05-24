@@ -28,3 +28,18 @@ export const createArtwork = (body: CreateArtworkBody) => async (
 		dispatch(setAlert(err.response.data.message, alertType.error));
 	}
 };
+
+// export const getUserArtworks = () => async (
+// 	dispatch: ThunkDispatch<{}, {}, AnyAction>
+// ) => {
+// 	dispatch({ type: actionTypes.CLEAR_USER_ARTWORKS });
+// 	try {
+// 		const res = await axios.get(`${baseUrl}/artworks/my-artworks`);
+// 		dispatch({
+// 			type: actionTypes.GET_USER_ARTWORKS,
+// 			payload: res.data.data.artworks,
+// 		});
+// 	} catch (err) {
+// 		dispatch(setAlert('No Artworks found', alertType.error));
+// 	}
+// };
