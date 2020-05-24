@@ -3,12 +3,12 @@ import { actionTypes } from './types';
 import {
 	SetAlertAction,
 	RemoveAlertAction,
-	errorType,
+	alertType,
 } from './../interfaces/alert';
 
 // TODO: Make error type to be an enum?
 
-export const setAlert = (message: string, type: errorType) => (
+export const setAlert = (message: string, type: alertType) => (
 	dispatch: Dispatch
 ) => {
 	dispatch<SetAlertAction>({

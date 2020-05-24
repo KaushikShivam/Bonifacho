@@ -1,18 +1,18 @@
 import { actionTypes } from './../actions/types';
 
-export enum errorType {
+export enum alertType {
 	success = 'success',
 	error = 'error',
 }
 
-export interface Error {
+export interface Alert {
 	message: string;
-	type: errorType;
+	type: alertType;
 }
 
 export interface SetAlertAction {
 	type: actionTypes.SET_ALERT;
-	payload: Error;
+	payload: Alert;
 }
 
 export interface RemoveAlertAction {
